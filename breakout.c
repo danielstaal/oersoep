@@ -206,7 +206,7 @@ void initBall(GWindow window, BALL ballen[], int T)
 void collision(BALL* ball1, BALL* ball2, double rand)
 {
 	// possible chance's on reaction dependend on reaction type
-	double chance[2] = {0, 0.35};
+	double chance[2] = {0, 0.3545354};
 	
 	// get reactiontype 
 	int reaction_type = typereaction(ball1, ball2);
